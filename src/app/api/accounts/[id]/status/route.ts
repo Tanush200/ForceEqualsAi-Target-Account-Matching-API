@@ -5,7 +5,7 @@ import { NextRequest } from "next/server";
 
 export async function POST(
   req: NextRequest,
-  { params }: { params: { id?: string } } // safer with optional chaining
+  { params }: { params: { id?: string } }
 ) {
   await connectDB();
 

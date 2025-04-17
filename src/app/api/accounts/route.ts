@@ -1,4 +1,3 @@
-// /app/api/accounts/route.ts
 import { connectDB } from "@/lib/db";
 import { Company } from "@/models/Company";
 import jwt from "jsonwebtoken";
